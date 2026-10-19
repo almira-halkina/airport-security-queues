@@ -1,6 +1,6 @@
 # How many security stations does an airport need?
 
-A discrete-event simulation of an airport security checkpoint, combined with queueing theory, to decide how many screening stations to open. Built as the first project for **CS166 (Minerva University, Fall 2026)**.
+A discrete-event simulation of an airport security checkpoint, combined with queueing theory, to decide how many screening stations to open. Built as the first project for Complex Systems Modelling & Analysis class.
 
 ![State of the simulation: queue lengths at 8 stations over 30 minutes](figures/01_simulation_state.png)
 
@@ -107,8 +107,4 @@ Then run **Kernel → Restart & Run All**. A full run takes about 10 minutes. Al
 
 The arrival rate is constant all day, so 11 stations is really a peak-hour answer. Travelers see every line perfectly and never switch lines, and staffing never changes during the day. Near capacity, stationarity is shown empirically rather than proven. The natural next step is to test a second senior officer, since the officer is the real bottleneck.
 
-## Authors and acknowledgments
-
-**Almira [Surname]** and **[Teammate name]**, CS166, Minerva University.
-
-The event-scheduling engine builds on code from the CS166 course materials. Claude (Anthropic) was used to help with understanding course concepts, reusing class code, debugging the notebook and formatting the report, as described in the report's acknowledgments.
+The event-scheduling engine builds on code from the course materials. Claude (Anthropic) was used to help with understanding course concepts, reusing class code, debugging the notebook and formatting the report, as described in the report's acknowledgments.
